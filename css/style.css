@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 23px;
+    font-family: var(--font1);
+    height: 74px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+.footer {
+    height: 60px;
+    /* background-color: var(--main-bg-color); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+ font-size: large;
+ padding-top: 20px;
+}
+
+.footer a {
+    color: rgb(0, 0, 0);
+    font-family: var(--font1);
+
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+    margin: 0 px;
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-weight: bold;
+    /* font-size: 18px; */
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    text-shadow: #000000;
+
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-olor);
+    font-weight: bolder;
+}
+
+
+.content {
+    display: flex;
+    height: 395px;
+    /* background-color: rgb(246, 246, 249); */
+    margin-top: 32px;
+}
+
+.content-left {
+
+    font-family: var(--font1);
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 0;
+}
+.content-left h1{
+    padding-bottom: 20px;
+}
+.content-right {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.home-articles {
+    padding: 30px;
+background-color: #EFEFEF;
+margin-top: 23px;
+position: relative;
+
+}
+.home-articles h2
+{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.home-article {
+    display: flex;
+    margin:25px;
+}
+
+.home-article img {
+    width: 300px;
+    border-radius: 12%;
+    box-shadow: 10px 10px #272727;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a
+{
+     text-decoration: none;
+     color: blacks
+}
+.home-article-content a :hover
+{
+    color: var(--main-bg-color);
+}
