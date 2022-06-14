@@ -1,2 +1,1 @@
-# myblogtemplate
-Blog Site basic
+Acess here : https://asifeth.github.io/myblogtemplate/
